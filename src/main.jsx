@@ -14,8 +14,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path="/" element={<App />} />
         {/* Your new study guide is at: /guide */}
         <Route path="/guide" element={<StudyGuide />} />
-        <Route path="/guide-2" element={<Paper2024 />} />
+        
       </Routes>
+      <Route path="/guide-2" element={<Paper2024 />} />
     </BrowserRouter>
   </React.StrictMode>,
 )
