@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom/client'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import App from './App.jsx'
 import StudyGuide from './StudyGuide.jsx'
-import Paper2024 from './2024Paper.jsx'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
