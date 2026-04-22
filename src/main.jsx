@@ -15,7 +15,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path="/guide" element={<StudyGuide />} />
         
       </Routes>
-      <Route path="/guide-2" element={<Paper2024 />} />
+
     </BrowserRouter>
   </React.StrictMode>,
 )
